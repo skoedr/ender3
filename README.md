@@ -1,16 +1,21 @@
 # My (current) Ender 3 Setup
 
-- Ender 3 OEM Hot End
+- Ender 3 E3D V6 All-Metal Hotend
 - Dual Z Axes (second stepper with Y-cable)
 - Creality 4.2.7 Mainboard (silence at last)
 - BL Touch 3.1 (not using Z-endstop pins)
 - Octoprint Setup with Raspberry Pi 4b
 - Hero Me Gen 5 with Noctua NF-A4x10 and 2 Sunon MF50151VX-A99
+- Noctua NF-A4x10 as electronics fan and Noise Blocker 60mm fan for power supply
+- X and Y axes running on MGN12H linear rails (printermods linear kit)
+- direct drive with original extruder (printer mods dd kit 1.3)
 
 ToDo:
-- change hotend, maybe Micro Swiss all Metal [ ]
-- switch from bowden to direct drive [ ]
-- replace rollers by linear rails [ ]
+- change hotend, maybe Micro Swiss all Metal [x]
+- switch from bowden to direct drive [x]
+- replace rollers by linear rails [x]
+- PID tuning [ ]
+- print some more exotic materials (starting with wood) [ ]
 
 # Original Marlin Readme starts here:
 # Marlin 3D Printer Firmware
